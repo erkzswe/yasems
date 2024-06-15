@@ -1,3 +1,6 @@
 from django.contrib import admin
+from bills.models import Product, Bill
 
-# Register your models here.
+
+admin.site.register(Product)
+admin.site.register(Bill)
